@@ -1,0 +1,402 @@
+.bungee-inline-regular {
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .body {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 15vh, 75vh, 10vh;
+        gap: 0px, 0px;
+        grid-template-areas: "header"
+        "main"
+        "footer";
+    }
+}
+
+body {
+    background-color: #191b19;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-height: fit-content;
+}
+
+.contenidocasa {
+    justify-content: center;
+    align-content: center;
+}
+
+
+h1 {
+    font-family: Bungee Inline;
+    font-size: 40px;
+    color: #a3ddb2;
+    padding: 20px;
+    text-align: center;
+}
+
+.comenzar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: Varela Round;
+}
+
+
+
+.encuesta_contenido {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #a3ddb2;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.encuesta {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.entrevistas {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.button {
+    border-style:solid;
+    border-width: 3px;
+    border-color: #daa520;
+    border-radius: 20px;
+    background-color: #404441;;  
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: #a3ddb2;
+    gap: 20px;
+    font-family: Varela Round;
+    width: 170px;
+    height: 45px;
+    font-size: 20px;
+}
+
+.button:hover {
+    border-color: #daa520;
+    border-radius: 20px;
+    background-color: #a3ddb2;
+    color: #191b19;
+    border-width: 8px;
+    width: 190px;
+    height: 60px;
+}
+
+
+h4 {
+    font-size: 30px;
+    padding: 20px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 25px;
+    color: #daa520;
+}
+
+.textoEntrevistas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 17px;
+    max-width: 1200px;
+
+} 
+
+.mel, .alito {
+    display: block;
+    padding: 30px;
+    background-color: #404441;
+    border-radius: 20px;
+}
+
+
+ .encuestasdiv {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 30px;
+    background-color: #daa520;
+    padding: 20px;
+ }
+
+ .ulenc {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+ }
+
+.contenidohis {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.primtra {
+    background-color: #404441;
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.leyes {
+    background-color: #404441;
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.tendencias {
+    background-color: #404441;
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.tendencias img {
+    width: 750px;
+    padding: 20px;
+}
+
+.contenido, p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #a3ddb2;
+    
+}
+
+.contenidohis h3 {
+    font-size: 40px;
+    color: #a3ddb2;
+}
+
+.normativa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.normativa h3 {
+    font-size: 40px;
+    color: #a3ddb2;
+}
+
+.leyesactualesti {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.leyesactualesti img {
+    width: 30px;
+}
+
+.leyesactuales {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #404441;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.leybases {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #404441;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.leybasesti {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.leybasesti img {
+    width: 30px;
+}
+
+.faq {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.faqpregunta1, .faqpregunta3, .faqpregunta5 {
+    background-color: #404441;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.faqintroduccion, .faqpregunta2, .faqpregunta4 {
+    padding: 20px;
+}
+
+footer {
+    margin-top: 30PX;
+    background-color: #404441;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+footer img {
+    width: 30px;
+}
+
+.contacto {
+    color: #a3ddb2;
+    font-size: 40px;
+}
+
+.menuul {
+    font-family: Varela Round;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    background-color: #404441;
+    padding: 15px 20px;
+}
+
+.menuu {
+    display: flex;
+    gap: 60px;
+}
+
+.menuu a {
+    display: inline-block;
+    text-decoration: none;
+    color: #a3ddb2;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-align: center;
+}
+
+.menuu a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #a3ddb2;
+    transition: 0.15s ease-in-out;
+}
+
+.menuu a:hover:after {
+    width: 100%;
+}
+
+.open-menu, .close-menu {
+    position: absolute;
+    color: #a3ddb2;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+
+#check {
+    display: none;
+}
+
+@media(max-width: 770px) {
+    .menuu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: #404441;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .menuu li {
+        margin-top: 10px;
+    }
+
+    .open-menu, .close-menu {
+        display: block;
+    }
+
+    #check:checked ~ .menuu {
+        right: 0;
+    }
+
+}
+
+.menuul img {
+    width: 30px;
+}
